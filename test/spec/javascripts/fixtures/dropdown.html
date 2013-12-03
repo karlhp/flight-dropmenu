@@ -1,0 +1,15 @@
+<div class="widget widget-dropdown">
+   <form name="dropdown" class="widget-dropdown-form">
+   <input name="ddf-value" type="hidden" value="1" class="widget-dropdown-value">
+   <a href="#" class="widget-dropdown-toggle">Выпадающее меню</a>
+   <ul class="widget-dropdown-menu">
+      <% data.each do |d| %>
+       <li>
+         <a href="<%=d['value']%>" >
+           <%=d['title']%>
+         </a>
+       </li>
+      <% end %>
+   </ul>
+   </form>
+</div>
