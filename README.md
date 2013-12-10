@@ -2,6 +2,8 @@
 
 A [Flight](https://github.com/flightjs/flight) component for making simple dropdown menu. 
 
+[![Bower version](https://badge.fury.io/bo/flight-dropmenu.png)](http://badge.fury.io/bo/flight-dropmenu)
+
 ## Installation
 
 ```bash
